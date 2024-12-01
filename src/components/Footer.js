@@ -11,13 +11,14 @@ export const Footer = () => {
         </div>
         <div>
           <div className='flex justify-items-center mb-10'>
-            <a href=''>
+            <a href='https://t.me/TUniverse0'>
             <FaTelegram size={50} color='blue' className='p-2'/>
             </a>
             
           </div>
         </div>
-        <div className='underline font-semibold text-justify '>
+        <div className='underline font-semibold text-justify'>
+          <p>Contact</p>
           <p>Terms & Conditioin</p>
           <p>Privacy Notice</p>
           <p>About Us</p>
@@ -25,7 +26,7 @@ export const Footer = () => {
           <p></p>
         </div>
         <div className='pt-4'>
-          <p>&copy;2024 GetCaRs.com. All right reserved.</p>
+          <p>&copy;2024 Tuniverse.shop. All right reserved.</p>
         </div>
     </div>
   )
