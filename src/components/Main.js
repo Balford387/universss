@@ -14,15 +14,17 @@ function Main() {
       <div className='mt-10 '>
         <h1 className="underline font-bold text-lg">OUR POPULAR COLLECTIONS</h1>
 
-        <div className=' mt-10 grid grid-cols-2 gap-5 '>
+        <div className=' mt-10 grid grid-cols-2 gap-2 overflow-hidden '>
 
-          <div className='rounded shadow-md grid p-4 bg-gray-600 relative'>
-            <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
+          <div className='rounded shadow-md grid  bg-gray-600 overflow-hidden relative'>
+            <div >
+            <img src="image/1.jpeg" alt='' className=' h-32 sm:h-48 object-cover p-2'/>
+            </div>
             <div className="flex justify-between font-semibold px-5 text-white py-2">
               <p className="uppercase">Sam</p>
               <p>Ghost Beat</p>
             </div>
-            <audio controls className="">
+            <audio controls className="h-10 p-2">
             <source src="audio/1.mpeg"/>
             </audio>
             <div>
@@ -33,7 +35,7 @@ function Main() {
             </div>
           </div>
 
-          <div className='rounded shadow-md grid p-4 bg-white relative'>
+          <div className='rounded shadow-md grid bg-white relative'>
             <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
             <div className="flex justify-between font-semibold px-5 py-2">
               <p className="uppercase">Sam</p>

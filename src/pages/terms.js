@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Terms = () => {
+ function T( ) {
   return (
     <div>terms</div>
   )
