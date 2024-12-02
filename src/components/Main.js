@@ -14,19 +14,19 @@ function Main() {
       <div className='mt-10 '>
         <h1 className="underline font-bold text-lg">OUR POPULAR COLLECTIONS</h1>
 
-        <div className=' mt-10 grid grid-cols-2 gap-5 overflow-hidden '>
+        <div className=' mt-10 grid grid-cols-2 gap-5  '>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
+            <div className=" justify-between font-semibold text-white ">
               <p className="uppercase">Sam</p>
               <p>Ghost Beat</p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
+            <audio controls className="h-10 w-full p-2">
             <source src="audio/1.mpeg"/>
             </audio>
-            <div>
-              <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
+            <div className="p-2">
+              <button className='bg-green-600 font-bold rounded-lg text-white px-4 p-2'>BUY</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
               <span>$2000</span>
@@ -35,86 +35,120 @@ function Main() {
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/2.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
+            <div className=" justify-between font-semibold  text-white ">
+              <p className="uppercase">Christian Griffith</p>
+              <p> ozone </p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
-            <source src="audio/1.mpeg"/>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/2.mpeg"/>
             </audio>
-            <div>
+            <div className="p-2">
               <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
+              <span>$1650</span>
             </div>
           </div>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/3.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
+            <div className=" justify-between font-semibold text-white">
+              <p className="uppercase">Ivan</p>
+              <p> Babytron </p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
+            <audio controls className="h-10 w-full p-2">
             <source src="audio/1.mpeg"/>
             </audio>
-            <div>
+            <div className="p-2">
               <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
+              <span>$1500</span>
             </div>
           </div>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/4.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
+            <div className="justify-between font-semibold  text-white ">
+              <p className="uppercase">Eetu</p>
+              <p>We so proud of him</p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
-            <source src="audio/1.mpeg"/>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/4.mpeg"/>
             </audio>
-            <div>
+            <div className="p-2">
               <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
+              <span>$1400</span>
             </div>
           </div>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/5.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
+            <div className=" justify-between font-semibold text-white">
+              <p className="uppercase"> Jake</p>
+              <p> Passenger </p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
-            <source src="audio/1.mpeg"/>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/5.mpeg"/>
             </audio>
-            <div>
+            <div className="p-2">
               <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
+              <span>$1650</span>
             </div>
           </div>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/6.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className="flex justify-between font-semibold px-5 text-white py-2">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
+            <div className="justify-between font-semibold text-white ">
+              <p className="uppercase"> Hazim Can</p>
+              <p>Supertrap </p>
             </div>
-            <audio controls className="h-10 sm:w-28 p-2">
-            <source src="audio/1.mpeg"/>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/6.mpeg"/>
             </audio>
-            <div>
+            <div className="p-2">
               <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
             </div>
             <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
+              <span>$1600</span>
+            </div>
+          </div>
+
+          <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
+            <img src="image/7.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
+            <div className="justify-between font-semibold text-white ">
+              <p className="uppercase">Canis</p>
+              <p>coated </p>
+            </div>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/1.mpeg"/>
+            </audio>
+            <div className="p-2">
+              <button className='bg-green-600 font-bold rounded-lg text-white px-4 p-2'>BUY</button>
+            </div>
+            <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
+              <span>$1700</span>
+            </div>
+          </div>
+
+          <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
+            <img src="image/8.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
+            <div className="justify-between font-semibold text-white ">
+              <p className="uppercase">Pat</p>
+              <p>Slay clan</p>
+            </div>
+            <audio controls className="h-10 w-full p-2">
+            <source src="audio/8.mpeg"/>
+            </audio>
+            <div className="p-2">
+              <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
+            </div>
+            <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
+              <span>$1400</span>
             </div>
           </div>
 
