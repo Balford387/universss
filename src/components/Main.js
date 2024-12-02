@@ -1,4 +1,6 @@
 import  Reacts  from "react";
+import ReactPlayer from 'react-player';
+import { AudioHTMLAttributes } from "react";
 
 function Main() {
   return (
@@ -15,21 +17,24 @@ function Main() {
 
           <div className='rounded shadow-md p-4 object-cover'>
             <img src="image/1.jpeg" alt='' className='object-cover '/>
+            <audio>
+              <source src="audio/1.mp4"/>
+            </audio>
             <div className='p-2'>
               <h1 className='text-center'>CAR NAME</h1>
             </div>
-            <div className='bg-orange-600 rounded-lg text-white gap-10 p-2'>
-              <button>SOLD</button>
+            <div>
+              <button className='bg-orange-600 rounded-lg text-white gap-10 p-2'>SOLD</button>
             </div>
           </div>
-        
+
           <div className='rounded shadow-md p-4 object-cover'>
-            <img src='img/main.png' alt='' className='w-full h-32 sm:h-48 object-cover'/>
+            <img src='image/1.jpeg' alt='' className='w-full h-32 sm:h-48 object-cover'/>
             <div className='p-2'>
               <h1 className='text-center'>CAR NAME</h1>
             </div>
-            <div className='bg-orange-600 rounded text-white gap-10 p-2'>
-              <button>SOLD</button>
+            <div>
+              <button className='bg-orange-600 rounded-lg text-white gap-10 p-2'>SOLD</button>
             </div>
           </div>
 
@@ -95,25 +100,38 @@ function Main() {
 
         </div>
       </div>
-      <div className="text-white px-10 justify-items-center justify-center text-center">
+      <div className="text-white p-10 justify-items-center justify-center text-center">
         <h1>LATTEST COLLECTIONS</h1>
+        <div className="pt-2">
         <div>
-          <video src=""/>
+          <ReactPlayer
+            className='react-player'
+            
+            width='100%'
+            height='100%'/>
           <p>Name</p>
-          <button className="bg-orange-700 rounded-lg">SOLD</button>
+          <button className="bg-orange-600 rounded-lg px-4">SOLD</button>
         </div>
         <div>
-        <img src="image/onboarding-slider.png" alt='' className='object-cover '/>
-          <></>
+          <ReactPlayer
+            className='react-player'
+            url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+            width='100%'
+            height='100%'/>
+          <p>Name</p>
+          <button className="bg-orange-600 rounded-lg px-4">SOLD</button>
         </div>
         <div>
-        <img src="image/onboarding-slider.png" alt='' className='object-cover '/>
-          <></>
+          <ReactPlayer
+            className='react-player'
+            url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+            width='100%'
+            height='100%'/>
+          <p>Name</p>
+          <button className="bg-orange-600 rounded-lg px-4">SOLD</button>
         </div>
-        <div>
-        <img src="image/onboarding-slider.png" alt='' className='object-cover '/>
-          <></>
         </div>
+        
       </div>
     </div>
   );

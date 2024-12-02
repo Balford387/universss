@@ -9,8 +9,8 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex justify-around bg-gray-400 mx-auto'>
-        <h1 className='text-green-800 w-full font-bold text-center p-4 font-serif text-2xl'>TUNIVERSE</h1>
+    <div className='flex justify-around bg-gray-300 mx-auto'>
+        <h1 className='text-green-800 w-full font-bold text-center p-4 font-serif text-3xl'>TUNIVERSE</h1>
             <div onClick={handleClick} className='md:hidden p-4 flex'>
               {Nav ? <AiOutlineClose size={35}/> : <AiOutlineMenu size={35}/>}
             </div>
