@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import { BrowserRouter,Routes ,Route } from 'react-router-dom'
+import Navba from './components/Navba';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -8,9 +9,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App" >
-      <Navbar />
-      <Main/>
-      <Footer/>
+        <Navba/>
+        <Main/>
+        <Footer/>
     </div>
   );
 }

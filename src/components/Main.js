@@ -4,7 +4,7 @@ import { AudioHTMLAttributes } from "react";
 
 function Main() {
   return (
-    <div className=" bg-black text-center justify-center pt-5 text-gray-600">
+    <div className=" bg-black text-center justify-center pt-5 text-gray-400">
       <div>
         <p>Number One Best Selling Music NFT Platform WORLDWIDE</p>
         <p>Music NFT Sales</p>
@@ -12,11 +12,27 @@ function Main() {
         <p>Blockchain Music/Beat Aunctioning</p>
       </div>
       <div className='mt-10 '>
-        <h1 className="underline font-bold text-lg">OUR POPULAR COLLECTIONS</h1>
+        <h1 className="underline font-bold text-lg text-yellow-300">OUR POPULAR COLLECTIONS</h1>
 
-        <div className=' mt-10 grid grid-cols-2 gap-5  '>
+        <div className=' mt-10 grid grid-cols-2 gap-5 p-2'>
 
-          <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
+        <div className='rounded shadow-md p-4 object-cover'>
+                    <img src='image/1.jpeg' alt='' className='w-full h-32 sm:h-48 object-cover '/>
+                    <div className='p-2'>
+                        <h1 className='text-center'>CAR NAME</h1>
+                        <span>$100</span>
+                    </div>
+                    <div className=' text-white flex gap-10 p-2'>
+                        <div className='bg-gray-500 p-2 px-4 rounded-full'>
+                            <span>DISCOUNT</span>
+                        </div>
+                        <div className='bg-orange-600 rounded-full p-2 px-4'>
+                        <h2 to='/Payment'>BUY</h2>
+                        </div>
+                    </div>
+                </div>
+
+          <div className='rounded shadow-green-600 sm:w-48 bg-gray-600  relative'>
             <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
             <div className=" justify-between font-semibold text-white ">
               <p className="uppercase">Sam</p>
@@ -125,7 +141,7 @@ function Main() {
               <p>coated </p>
             </div>
             <audio controls className="h-10 w-full p-2">
-            <source src="audio/1.mpeg"/>
+            <source src="audio/7.mpeg"/>
             </audio>
             <div className="p-2">
               <button className='bg-green-600 font-bold rounded-lg text-white px-4 p-2'>BUY</button>
@@ -155,7 +171,7 @@ function Main() {
 
         </div>
       </div>
-      <div className="text-white p-10 justify-items-center justify-center text-center">
+      <div className="text-white p-10  justify-center text-center">
         <h1>LATTEST COLLECTIONS</h1>
         <div className="pt-2 grid gap-2 justify-items-center justify-center text-center">
           <div>
