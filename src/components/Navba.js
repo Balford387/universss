@@ -37,7 +37,6 @@ const Navbar = () => {
                 <li className='p-4 border-b border-gray-600' >Contact</li>
                 <li className='p-4 border-b border-gray-600' >New cars</li>
                 <li className='p-4 border-b border-gray-600' >Privacy Notice</li>
-                <li className='p-4 border-b border-gray-600' >Research & Review</li>
                 <li className='p-4 border-b border-gray-600' >Register</li>
                 <li className='p-4 border-b border-gray-600' >Terms</li>
               </ul>
