@@ -1,9 +1,13 @@
 import  React  from "react";
-import ReactPlayer from 'react-player';
+import Navba from "../components/Navba";
+import Footer from "../components/Footer";
 
-function Main() {
+function Home() {
   return (
+    <div><Navba/>
+
     <div className=" bg-black text-center justify-center pt-5 text-gray-400">
+    
       <div>
         <p>Number One Best Selling Music NFT Platform WORLDWIDE</p>
         <p>Music NFT Sales</p>
@@ -175,12 +179,12 @@ function Main() {
             </video>
             <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2">SOLD</button>
           </div>
-          
         </div>
-        
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }
 
-export default Main;
+export default Home;

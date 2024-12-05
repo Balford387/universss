@@ -1,8 +1,14 @@
 import React from 'react'
+import Navba from '../components/Navba';
+import Footer from '../components/Footer';
 
- function T( ) {
+ function Terms ( ) {
   return (
-    <div>terms</div>
+    <div>
+      <Navba/>
+      <div>Terms</div>
+      <Footer/>
+    </div>
   )
 }
 

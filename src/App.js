@@ -1,17 +1,25 @@
 import React from 'react';
 import { BrowserRouter,Routes ,Route } from 'react-router-dom'
-import Navba from './components/Navba';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+
 
 
 
 function App() {
   return (
     <div className="App" >
-        <Navba/>
-        <Main/>
-        <Footer/>
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Home/>}/>
+        <Route path='/Home' element={<Home/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Privacy' element={<Privacy/>}/>
+        <Route path='/Terms' element={<Terms/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

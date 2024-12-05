@@ -1,8 +1,9 @@
 import React from 'react'
-import { BrowserRouter,Routes ,Link } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 import {
   FaTelegram,
-} from 'react-icons/fa'
+} from 'react-icons/fa';
+
 
 export const Footer = () => {
   return (
@@ -20,18 +21,11 @@ export const Footer = () => {
           </div>
         </div>
         <div className='underline font-semibold text-justify'>
-          
-            <p>Contact</p>
-          
-       
-            <p>Privacy Notice</p>
-         
-          
-            <p>About Us</p>
-          
-          
-            <p>Terms & Conditioin</p>
-         
+
+          <p>Contact</p>
+          <p>Privacy Notice</p>
+          <p>About Us</p>
+          <p>Terms & Conditioin</p>
         </div>
         <div className='pt-4'>
           <p>&copy;2024 Tuniverse.shop. All right reserved.</p>
