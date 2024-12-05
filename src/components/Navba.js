@@ -34,12 +34,12 @@ const Navbar = () => {
             <div className= {Nav ? 'fixed bg-gray-200 z-20 left-0 top-0 w-[50%] h-full border-r border-r-gray-600 ease-in-out duration-500 lg:hidden': 'fixed left-[-100%] '}>
               <h1 className='text-4xl w-full underline font-bold text-center p-4'>TUniverse.</h1>
               <ul className='uppercase '>
-                <li className='p-4 border-b border-gray-600' >Cars for Sale</li>
+                <li className='p-4 border-b border-gray-600' >Contact</li>
                 <li className='p-4 border-b border-gray-600' >New cars</li>
-                <li className='p-4 border-b border-gray-600' >Sell Your Car</li>
+                <li className='p-4 border-b border-gray-600' >Privacy Notice</li>
                 <li className='p-4 border-b border-gray-600' >Research & Review</li>
-                <li className='p-4 border-b border-gray-600' >about</li>
-                <li className='p-4 border-b border-gray-600' >contact</li>
+                <li className='p-4 border-b border-gray-600' >Register</li>
+                <li className='p-4 border-b border-gray-600' >Terms</li>
               </ul>
             </div>
     </div>
