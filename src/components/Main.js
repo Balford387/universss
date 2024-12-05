@@ -1,6 +1,5 @@
-import  Reacts  from "react";
+import  React  from "react";
 import ReactPlayer from 'react-player';
-import { AudioHTMLAttributes } from "react";
 
 function Main() {
   return (
@@ -14,23 +13,7 @@ function Main() {
       <div className='mt-10 '>
         <h1 className="underline font-bold text-lg text-yellow-300">OUR POPULAR COLLECTIONS</h1>
 
-        <div className=' mt-10 grid grid-cols-2 gap-5 p-2'>
-
-        <div className='rounded shadow-md p-4 object-cover'>
-                    <img src='image/1.jpeg' alt='' className='w-full h-32 sm:h-48 object-cover '/>
-                    <div className='p-2'>
-                        <h1 className='text-center'>CAR NAME</h1>
-                        <span>$100</span>
-                    </div>
-                    <div className=' text-white flex gap-10 p-2'>
-                        <div className='bg-gray-500 p-2 px-4 rounded-full'>
-                            <span>DISCOUNT</span>
-                        </div>
-                        <div className='bg-orange-600 rounded-full p-2 px-4'>
-                        <h2 to='/Payment'>BUY</h2>
-                        </div>
-                    </div>
-                </div>
+        <div className=' mt-10 grid grid-cols-2 gap-5 p-2 z-10'>
 
           <div className='rounded shadow-green-600 sm:w-48 bg-gray-600  relative'>
             <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>

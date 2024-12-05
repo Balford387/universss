@@ -1,11 +1,16 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
+import Navba from '../components/Navba';
 
 function Contact() {
   return (
     <div>
         <div>
-          <Navbar/>
+          <Navba/>
+          <div>
+            <p>
+              
+            </p>
+          </div>
           <Footer/>
         </div>
     </div>

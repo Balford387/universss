@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter,Routes ,Link } from 'react-router-dom'
 import {
   FaTelegram,
 } from 'react-icons/fa'
@@ -13,17 +14,24 @@ export const Footer = () => {
           <div className='flex justify-items-center mb-10'>
             <a href='https://t.me/TUniverse0'>
             <FaTelegram size={50} color='blue' className='p-2'/>
+            Telegram
             </a>
             
           </div>
         </div>
         <div className='underline font-semibold text-justify'>
-          <p>Contact</p>
-          <p>Terms & Conditioin</p>
-          <p>Privacy Notice</p>
-          <p>About Us</p>
-          <p>Register</p>
-          <p></p>
+          
+            <p>Contact</p>
+          
+       
+            <p>Privacy Notice</p>
+         
+          
+            <p>About Us</p>
+          
+          
+            <p>Terms & Conditioin</p>
+         
         </div>
         <div className='pt-4'>
           <p>&copy;2024 Tuniverse.shop. All right reserved.</p>
