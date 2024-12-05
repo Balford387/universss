@@ -154,7 +154,7 @@ function Main() {
 
         </div>
       </div>
-      <div className="text-white p-10  justify-center text-center">
+      <div className="text-white p-10 z-10 justify-center text-center">
         <h1>LATTEST COLLECTIONS</h1>
         <div className="pt-2 grid gap-2 justify-items-center justify-center text-center">
           <div>
