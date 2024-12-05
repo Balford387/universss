@@ -161,25 +161,42 @@ function Home() {
       </div>
       <div className="text-white p-10 z-10 justify-center text-center">
         <h1>LATTEST COLLECTIONS</h1>
-        <div className="pt-2 grid gap-2 justify-items-center justify-center text-center">
-          <div>
-            <video controls>
-              <source src="video/vid1.mp4"/>
-            </video>
-            <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2">SOLD</button>
-          </div>
-          <div>
-            <video controls autoPlay>
-              <source src="video/vid2.mp4"/>
-            </video>
-            <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2">SOLD</button>
-          </div>
-          <div>
-            <video controls autoPlay>
-              <source src="video/vid3.mp4"/>
-            </video>
-            <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2">SOLD</button>
-          </div>
+        <div className="pt-2 grid gap-5 justify-items-center justify-center text-center">
+            <div className='rounded shadow-white shadow  bg-black  overflow-hidden'>
+                <video controls autoPlay>
+                <source src="video/vid1.mp4"/>
+                </video>
+                <div className="flex font-bold  justify-between m-2 text-black">
+                    <p className="p-2 rounded-lg bg-gray-600">JAMES</p>
+                    <p className="p-2 rounded-lg bg-gray-600">Hot-Kit</p>
+                    <p className="p-2 rounded-lg bg-red-600">$1900</p>
+                </div>
+                <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2 mb-2">SOLD</button>
+            </div>
+
+            <div className='rounded shadow-white shadow  bg-black  overflow-hidden'>
+                <video controls autoPlay>
+                <source src="video/vid2.mp4"/>
+                </video>
+                <div className="flex font-bold  justify-between m-2 text-black">
+                    <p className="p-2 rounded-lg bg-gray-600">WAIVE</p>
+                    <p className="p-2 rounded-lg bg-gray-600">SounDown</p>
+                    <p className="p-2 rounded-lg bg-red-600">$2600</p>
+                </div>
+                <button className="bg-green-600 font-bold rounded-lg text-black px-4 p-2 mb-2">BUY</button>
+            </div>
+
+            <div className='rounded shadow-white shadow  bg-black  overflow-hidden'>
+                <video controls autoPlay>
+                <source src="video/vid3.mp4"/>
+                </video>
+                <div className="flex font-bold  justify-between m-2 text-black">
+                    <p className="p-2 rounded-lg bg-gray-600">NONI</p>
+                    <p className="p-2 rounded-lg bg-gray-600">EndLess</p>
+                    <p className="p-2 rounded-lg bg-red-600">$2300</p>
+                </div>
+                <button className="bg-orange-600 font-bold rounded-lg text-black px-4 p-2 mb-2">SOLD</button>
+            </div>
         </div>
       </div>
     </div>
