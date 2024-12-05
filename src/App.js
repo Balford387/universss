@@ -6,6 +6,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import About from './pages/About';
 import Register from './pages/Register';
+import Buy from './pages/Buy';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Terms' element={<Terms/>}/>
         <Route path='About' element={<About/>}/>
         <Route path='/Register' element={<Register/>}/>
+        <Route path='/Buy' element={<Buy/>}/>
       </Routes>
       </BrowserRouter>
     </div>

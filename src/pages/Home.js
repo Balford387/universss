@@ -1,57 +1,58 @@
 import  React  from "react";
 import Navba from "../components/Navba";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div><Navba/>
+    <div>
+        <Navba/>
+        <div className=" bg-black text-center justify-center pt-5 text-gray-400">
+            <div>
+                <p>Number One Best Selling Music NFT Platform WORLDWIDE</p>
+                <p>Music NFT Sales</p>
+                <p>Beat NFT Sales</p>
+                <p>Blockchain Music/Beat Aunctioning</p>
+            </div>
+            <div className='mt-10 '>
+                <h1 className="underline font-bold text-lg text-yellow-300">OUR POPULAR COLLECTIONS</h1>
+                <div className=' mt-10 grid grid-cols-2 gap-5 p-2 z-10'>
 
-    <div className=" bg-black text-center justify-center pt-5 text-gray-400">
-    
-      <div>
-        <p>Number One Best Selling Music NFT Platform WORLDWIDE</p>
-        <p>Music NFT Sales</p>
-        <p>Beat NFT Sales</p>
-        <p>Blockchain Music/Beat Aunctioning</p>
-      </div>
-      <div className='mt-10 '>
-        <h1 className="underline font-bold text-lg text-yellow-300">OUR POPULAR COLLECTIONS</h1>
+                <div className='rounded shadow-green-600 sm:w-48 bg-gray-600  relative'>
+                    <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
+                    <div className=" justify-between font-semibold text-white ">
+                        <p className="uppercase">Sam</p>
+                        <p>Ghost Beat</p>
+                    </div>
+                    <audio controls className="h-10 w-full p-2">
+                    <source src="audio/1.mpeg"/>
+                    </audio>
+                    <div className="p-2">
+                        <Link to="/Buy">
+                        <button className='bg-green-600 font-bold rounded-lg text-white px-4 p-2'>BUY</button>
+                        </Link>
+                    </div>
+                    <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
+                        <span>$2000</span>
+                    </div>
+                </div>
 
-        <div className=' mt-10 grid grid-cols-2 gap-5 p-2 z-10'>
-
-          <div className='rounded shadow-green-600 sm:w-48 bg-gray-600  relative'>
-            <img src="image/1.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className=" justify-between font-semibold text-white ">
-              <p className="uppercase">Sam</p>
-              <p>Ghost Beat</p>
-            </div>
-            <audio controls className="h-10 w-full p-2">
-            <source src="audio/1.mpeg"/>
-            </audio>
-            <div className="p-2">
-              <button className='bg-green-600 font-bold rounded-lg text-white px-4 p-2'>BUY</button>
-            </div>
-            <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$2000</span>
-            </div>
-          </div>
-
-          <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
-            <img src="image/2.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
-            <div className=" justify-between font-semibold  text-white ">
-              <p className="uppercase">Christian Griffith</p>
-              <p> ozone </p>
-            </div>
-            <audio controls className="h-10 w-full p-2">
-            <source src="audio/2.mpeg"/>
-            </audio>
-            <div className="p-2">
-              <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
-            </div>
-            <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
-              <span>$1650</span>
-            </div>
-          </div>
+                <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
+                    <img src="image/2.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>
+                    <div className=" justify-between font-semibold  text-white ">
+                        <p className="uppercase">Christian Griffith</p>
+                        <p> ozone </p>
+                    </div>
+                    <audio controls className="h-10 w-full p-2">
+                    <source src="audio/2.mpeg"/>
+                    </audio>
+                    <div className="p-2">
+                        <button className='bg-orange-600 font-bold rounded-lg text-white px-4 p-2'>SOLD</button>
+                    </div>
+                    <div className="absolute top-0 bg-white rounded-lg p-1 m-4 font-bold">
+                        <span>$1650</span>
+                    </div>
+                </div>
 
           <div className='rounded shadow-green-600 shadow sm:w-48 bg-gray-600 overflow-hidden relative'>
             <img src="image/3.jpeg" alt='' className='w-full h-32 sm:h-48 object-cover'/>

@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Link to="/Privacy">
                 <li className='p-4 border-b border-gray-600' >Privacy</li>
                 </Link>
-                <Link to="/About">
+                <Link to="/Terms">
                 <li className='p-4 border-b border-gray-600' >Terms</li>
                 </Link>
                 <Link to="/Register">
