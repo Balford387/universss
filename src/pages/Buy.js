@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function Buy() {
   return (
     <div className='h-screen justify-center justify-items-center'>
-      <Navbar/>
+        <Navbar/>
         <div className='bg-black text-gray-400 text-left shadow-2xl shadow-white p-10 border-yellow-100'>
             <div className='bg-white rounded-lg p-2'>
                 <div  className='grid gap-2 pb-2'>
@@ -23,7 +23,7 @@ function Buy() {
                 <div>
                     <div className='flex'>
                        
-                        <p>cvv</p>
+                        <p>Cvv</p>
                         <input
                         className='border w-20'/>
                     </div>
