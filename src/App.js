@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import About from './pages/About';
+import Register from './pages/Register';
 
 
 
@@ -18,6 +20,8 @@ function App() {
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Privacy' element={<Privacy/>}/>
         <Route path='/Terms' element={<Terms/>}/>
+        <Route path='About' element={<About/>}/>
+        <Route path='/Register' element={<Register/>}/>
       </Routes>
       </BrowserRouter>
     </div>

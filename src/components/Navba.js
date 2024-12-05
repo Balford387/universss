@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineShoppingCart} from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -34,11 +35,24 @@ const Navbar = () => {
             <div className= {Nav ? 'fixed bg-gray-200 z-20 left-0 top-0 w-[50%] h-full border-r border-r-gray-600 ease-in-out duration-500 lg:hidden': 'fixed left-[-100%] '}>
               <h1 className='text-4xl w-full underline font-bold text-center p-4'>TUniverse.</h1>
               <ul className='uppercase '>
+              <Link to="/Home">
+                <li className='p-4 border-b border-gray-600' >Home</li>
+                </Link>
+                <Link to="/Contact">
                 <li className='p-4 border-b border-gray-600' >Contact</li>
-                <li className='p-4 border-b border-gray-600' >New cars</li>
-                <li className='p-4 border-b border-gray-600' >Privacy Notice</li>
-                <li className='p-4 border-b border-gray-600' >Register</li>
+                </Link>
+                <Link to="/About">
+                <li className='p-4 border-b border-gray-600' >About Us</li>
+                </Link>
+                <Link to="/Privacy">
+                <li className='p-4 border-b border-gray-600' >Privacy</li>
+                </Link>
+                <Link to="/About">
                 <li className='p-4 border-b border-gray-600' >Terms</li>
+                </Link>
+                <Link to="/Register">
+                <li className='p-4 border-b border-gray-600' >Register</li>
+                </Link>
               </ul>
             </div>
     </div>
