@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-around bg-gray-300 mx-auto'>
-        <h1 className ='text-4xl w-full font-bold text-center p-4 font-serif'>T-Universe</h1>
+        <h1 className ='text-4xl w-full font-bold text-center p-4 font-serif'>TUniverse</h1>
             <ul className='hidden lg:flex flex-row gap-2'>
                 {
                     list.map((item) => (
@@ -33,7 +33,7 @@ const Navbar = () => {
               {Nav ? <AiOutlineClose size={35}/> : <AiOutlineMenu size={35}/>}
             </div>
             <div className= {Nav ? 'fixed bg-gray-200 z-20 left-0 top-0 w-[50%] h-full border-r border-r-gray-600 ease-in-out duration-500 lg:hidden': 'fixed left-[-100%] '}>
-              <h1 className='text-4xl w-full underline font-bold text-center p-4'>T-Universe.</h1>
+              <h1 className='text-4xl w-full underline font-bold text-center p-4'>TUniverse.</h1>
               <ul className='uppercase '>
               <Link to="/Home">
                 <li className='p-4 border-b border-gray-600' >Home</li>
